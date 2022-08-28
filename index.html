@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profit and Loss</title>
+  </head>
+  <body>
+    <h1>Profit and Loss Calculator</h1>
+    <div id="container">
+      <section id="input">
+        <label for="cost-price"
+          >What was the price you paid for the stock?</label
+        >
+        <input type="text" id="cost-price" placeholder="Shares bought at"/>
+        <label for="quantity">How many stocks did you buy?</label>
+        <input type="text" id="quantity" placeholder="Number of shares bought"/>
+        <label for="selling-price">What did you sell the stock for?</label>
+        <input type="text" id="selling-price" placeholder="Shares sold at"/>
+        <button type="submit" id="submit-btn">Calculate</button>
+      </section>
+      <section id="output">
+        <p id="result"></p>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

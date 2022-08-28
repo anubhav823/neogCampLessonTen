@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap");
+
+:root {
+  --primary-color: #057a55;
+  --dark-gray: grey;
+  --off-white: #f3f4f6;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(78, 79, 80);
+  color: white;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: inherit;
+  top: 50%;
+}
+label {
+  margin: 0.5rem;
+}
+input {
+  margin: 0.5 rem;
+  width: 50%;
+  padding: 0.5rem;
+}
+#input {
+  padding: 3rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#output {
+  font-size: 40px;
+  padding: 3rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profit-glow {
+  text-align: center;
+  text-shadow: 0 0 30px #0ad696;
+}
+.loss-glow {
+  text-shadow: 0 0 30px red;
+}
+#submit-btn{
+    margin:1rem;
+    padding: 0.5rem;
+    font-family: inherit;
+    border-radius: 0;
+    background: none;
+    border: 1px solid black;
+    background-color: rgb(105, 105, 37);
+    color: white;
+}
+#submit-btn:active{
+    background-color: #057a55;
+}
